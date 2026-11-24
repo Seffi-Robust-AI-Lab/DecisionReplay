@@ -1,0 +1,41 @@
+{
+ "decided": "2026-11-21",
+ "decided_by": "the authors",
+ "statement": "17 of the 22 models had no explicit clause flagged in our review that barred benchmarking or required permission to publish comparisons or compile a dataset.",
+ "held_models": {
+  "heygen/heygen-decision-1": "HeyGen Decision 1",
+  "heygen/heygen-decision-1-turbo": "HeyGen Decision Turbo",
+  "jaredpalmer/kev-4b": "Kev-4B (through SiliconFlow)",
+  "morph/reflex": "Morph Reflex",
+  "respan/span-02": "Respan Span-02"
+ },
+ "rule": "A benchmark-model cell is released when its model is not held and the review found no source clause that bars the anonymous positional results (benchmark_vector_status no_source_output_bar_identified). The requests named by exclude_host_requests are removed for every model, and the remaining requests of a benchmark are numbered in their order. The open tier (schema version 2) carries items, fields, splits, probability vectors and, for every request and released model, the number of calls, the input and output tokens, the billed cost and the measured latency. It carries no serving host, no transport and no attempt count.",
+ "hosts_with_benchmark_clause": {
+  "PrimeIntellect": "model_output_rights.csv, cloudflare/clef-flash, public_benchmark_scope: publishing host performance for this host requires checking its benchmark clause"
+ },
+ "exclude_host_requests": [
+  {
+   "model": "cloudflare/clef-flash",
+   "serving_host": "PrimeIntellect",
+   "expected_requests": 41
+  }
+ ],
+ "requests": {
+  "decided": "2026-11-24",
+  "decided_by": "the authors",
+  "statement": "The requests that a host whose terms condition benchmarking of its service served for a released model are removed from the corpus for every model (exclude_host_requests; the host is listed under hosts_with_benchmark_clause).",
+  "basis": "The collection records give the serving host of every request and model. The corpus builder finds the requests in the source export and stops unless their number is the expected one."
+ },
+ "review": {
+  "date": "2026-11-19",
+  "clearance": "results/decision_index/paper/rights/clearance.csv",
+  "model_terms": "results/decision_index/paper/rights/model_output_rights.csv",
+  "serving": "results/decision_index/paper/rights/serving_providers.csv"
+ },
+ "fields": {
+  "decided": "2026-11-23",
+  "decided_by": "the authors",
+  "statement": "The release also carries, for every request and released model, the token counts, the billed cost and the measured latency.",
+  "review_scope": "The review of 19 November 2026 covered the numeric outputs and kept raw receipts and provider-specific timing outside the public subset. It does not establish a grant for the usage, cost and latency records; their release is the authors' decision."
+ }
+}

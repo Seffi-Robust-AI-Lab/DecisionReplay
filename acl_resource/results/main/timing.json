@@ -1,0 +1,11 @@
+{
+ "cpu_count": 8,
+ "numpy": "2.3.5",
+ "pandas": "2.3.3",
+ "processes": 4,
+ "pyarrow": "22.0.0",
+ "python": "3.13.9",
+ "scikit_learn": "1.7.2",
+ "scipy": "1.16.3",
+ "seconds": 812
+}

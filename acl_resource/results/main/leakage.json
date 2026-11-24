@@ -1,0 +1,12 @@
+{
+ "benchmarks": 35,
+ "benchmarks_affected": 5,
+ "per_benchmark": {
+  "11": 2,
+  "2": 9,
+  "22": 2,
+  "4": 2,
+  "58": 8
+ },
+ "requests_with_duplicate_text_across_folds": 23
+}

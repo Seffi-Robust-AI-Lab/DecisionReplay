@@ -1,0 +1,37 @@
+catalog_id,area,native_metric
+1,tools,case exact accuracy
+2,tools,nDCG@10
+3,tools,accuracy
+4,retrieval,macro-F1
+5,retrieval,macro-F1
+9,tools,case exact accuracy
+11,language,macro-F1
+12,language,macro-F1
+20,arts,macro accuracy by variant
+21,arts,accuracy
+22,arts,macro accuracy by song
+23,arts,macro accuracy by user
+25,knowledge,accuracy
+28,knowledge,accuracy
+29,language,accuracy
+30,knowledge,mean accuracy over 4- and 10-choice tracks
+31,knowledge,best-move accuracy
+32,knowledge,accuracy
+33,knowledge,case exact accuracy
+36,retrieval,nDCG@10
+37,retrieval,macro-F1
+38,language,per-review F1
+39,language,macro-F1
+40,language,"Sarcasm F1 · track A, English"
+41,language,macro-F1
+42,language,macro-F1
+43,knowledge,accuracy
+44,knowledge,accuracy
+50,arts,group-preferred accuracy
+56,retrieval,accuracy
+57,knowledge,accuracy
+58,knowledge,accuracy
+59,language,F1 on hallucinated class
+61,retrieval,accuracy
+62,tools,accuracy
+64,arts,accuracy

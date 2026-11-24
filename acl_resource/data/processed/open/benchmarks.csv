@@ -1,0 +1,36 @@
+catalog_id,name,area,native_metric,requests,fields
+1,BFCL,tools,case exact accuracy,1694,4768
+2,ToolRet,tools,nDCG@10,651,20831
+3,API-Bank,tools,accuracy,508,508
+4,BANKING77,retrieval,macro-F1,3080,3080
+5,CLINC150+OOS,retrieval,macro-F1,5500,5500
+9,Home appliance simulator,tools,case exact accuracy,88,1590
+11,ContractNLI,language,macro-F1,123,2091
+12,ANLI,language,macro-F1,3200,3200
+20,BPoMP,arts,macro accuracy by variant,5000,5000
+21,Humicroedit,arts,accuracy,2628,2628
+22,POP909-CL,arts,macro accuracy by song,2000,2000
+23,cfcolor,arts,macro accuracy by user,5000,5000
+25,GPQA Diamond,knowledge,accuracy,196,196
+28,WinoGrande,knowledge,accuracy,1267,1267
+29,HellaSwag,language,accuracy,10042,10042
+30,GSM8K,knowledge,mean accuracy over 4- and 10-choice tracks,2638,2638
+31,ChessBench,knowledge,best-move accuracy,5000,5000
+32,MuSR,knowledge,accuracy,752,752
+33,SATA-Bench,knowledge,case exact accuracy,1650,15517
+36,BRIGHT,retrieval,nDCG@10,213,6816
+37,Amazon ESCI,retrieval,macro-F1,5000,5000
+38,ACOS,language,per-review F1,1565,91092
+39,FinEntity,language,macro-F1,979,2129
+40,iSarcasmEval,language,"Sarcasm F1 · track A, English",4600,11600
+41,VAST,language,macro-F1,3006,3006
+42,NLI4CT,language,macro-F1,5500,5500
+43,CRUXEval,knowledge,accuracy,570,570
+44,CLadder,knowledge,accuracy,5000,5000
+50,Habermas Machine,arts,group-preferred accuracy,1676,1676
+56,PhishNChips phishing decisions,retrieval,accuracy,2000,18000
+57,MMLU-Pro,knowledge,accuracy,12032,12032
+58,BBH fixed-option tasks,knowledge,accuracy,5507,5507
+61,HoVer claim verification,retrieval,accuracy,4000,4000
+62,When2Call MCQ,tools,accuracy,3652,3652
+64,New Yorker caption matching,arts,accuracy,528,528

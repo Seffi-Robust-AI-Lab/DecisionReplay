@@ -1,0 +1,68 @@
+{
+ "catalog_ids": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  9,
+  11,
+  12,
+  20,
+  21,
+  22,
+  23,
+  25,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  50,
+  56,
+  57,
+  58,
+  61,
+  62,
+  64
+ ],
+ "checksums_sha256": "e862aebec94dc76234d846f72a7706e13124bbcc984ea3da05477bc83fd5c55e",
+ "clearance_sha256": "80d5636e0e4622c0911fdf12104b994f3d99b9fc3318cd2772bc4dc652e67848",
+ "counts": {
+  "fields": 267716,
+  "observations": 1816365,
+  "requests": 106845,
+  "vectors": 4551172
+ },
+ "excluded_requests": {
+  "2": 34,
+  "36": 7
+ },
+ "model_count": 17,
+ "names": "real",
+ "providers": [],
+ "schema_version": "decision-replay-corpus-v2",
+ "source": {
+  "checksums_sha256": "eb68c32ad4c917835e7baec48665e36351f6ee37f4beff849fd4f3f2603cb68c",
+  "id_version": "decision-fusion-numeric-v1"
+ },
+ "tables": [
+  "items",
+  "fields",
+  "splits",
+  "predictions",
+  "usage",
+  "latency"
+ ],
+ "tier": "open"
+}

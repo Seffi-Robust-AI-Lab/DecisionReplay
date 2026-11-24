@@ -1,0 +1,53 @@
+\documentclass[11pt,a4paper]{article}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=-1
+\usepackage[review]{acl}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\input{generated/numbers}
+\input{generated/figure_captions}
+\newcommand{\placeholder}[1]{\par\noindent\textit{[Draft: #1]}\par}
+\newcommand{\literal}[1]{#1}
+\ifpapersynthetic
+  \AddToHook{shipout/foreground}{%
+    \put(.5\paperwidth,-1.5cm){\makebox[0pt]{%
+      \color[gray]{.62}\fontsize{24}{26}\selectfont\bfseries MADE-UP DATA}}}
+\fi
+\title{Evaluating Ensembles, Routers and Cascades of Language Models on NLP Benchmarks}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\placeholder{Abstract}
+\end{abstract}
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/corpus}
+\input{sections/diagnostics}
+\input{sections/simulator}
+\input{sections/results}
+\input{sections/conclusion}
+
+\clearpage
+\input{sections/limitations}
+\input{sections/ethics}
+\nocite{*}
+% The review style selects acl_natbib.
+\bibliography{references}
+
+\clearpage
+\appendix
+\input{sections/data_statement}
+\input{sections/per_benchmark}
+\input{sections/rights}
+\input{sections/extended_related_work}
+\input{sections/reproducibility}
+\input{sections/ai_assistants}
+\end{document}

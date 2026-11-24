@@ -1,0 +1,11 @@
+{
+ "corpus_manifest_sha256": "881cbaa44253d7ec8cf1e455db4203ee477eac85151f8a1f31bbb074d0b16422",
+ "notes": [
+  "C6 skipped, missing local fields for tree_replay",
+  "C7 skipped, missing local fields for tree_replay, greedy_replay",
+  "D6 skipped, missing local fields for combiner_replay"
+ ],
+ "rows": [],
+ "settings_sha256": "6c5467466ddbd34139b161cc52d7e631d2cbe095aa180f7241478a369081a5c8",
+ "synthetic": false
+}

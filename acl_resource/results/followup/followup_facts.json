@@ -1,0 +1,377 @@
+{
+ "control": {
+  "cells": 175,
+  "cells_one_model": 70,
+  "log_loss_better": 10,
+  "log_loss_worse": 22,
+  "ridge_minus_control": {
+   "difference": 0.000766801072102782,
+   "over_high": 0.00317582238940454,
+   "over_low": -0.0015521659925958474,
+   "within_high": 0.002387598729730145,
+   "within_low": -0.0008483319242012028
+  }
+ },
+ "few_right": {
+  "confidence_right": 0.5517216979075161,
+  "confidence_wrong": 0.5903192263227665
+ },
+ "folds": {
+  "C5_frozen": 0.009608931968423717,
+  "C5_mean": 0.010073399339915795,
+  "C8_frozen": -0.008108932584604323,
+  "C8_mean": -0.0066544242296241955,
+  "D1_frozen": 0.007208046290513304,
+  "D1_mean": 0.008052541503523525,
+  "draws": 20
+ },
+ "full_text": {
+  "knn_accuracy": 0.8565119617298881,
+  "knn_log_loss": 0.39390193931787393,
+  "knn_minus_best": {
+   "difference": -0.006099117877450038,
+   "over_high": -0.0014715555555842939,
+   "over_low": -0.011056806438006044,
+   "within_high": -0.003959288767691705,
+   "within_low": -0.008233836925052229
+  },
+  "knn_minus_control": {
+   "difference": -0.004919053501885708,
+   "over_high": -0.000571943945875206,
+   "over_low": -0.00916598843700999,
+   "within_high": -0.002766411056978245,
+   "within_low": -0.007122481596012782
+  },
+  "knn_minus_stored": {
+   "difference": -0.0003853309738295999,
+   "over_high": 0.0014237006169837473,
+   "over_low": -0.0021806762130799906,
+   "within_high": 0.0017330108935282515,
+   "within_low": -0.0024674859843314485
+  },
+  "new_below_half": 0,
+  "ridge_cost_share": 0.5983991618311504,
+  "ridge_minus_best": {
+   "difference": -0.0005098441069327942,
+   "over_high": 0.0026839049606783073,
+   "over_low": -0.0038647943846607568,
+   "within_high": 0.00107410035211047,
+   "within_low": -0.002150434502845156
+  },
+  "ridge_minus_best_log_loss": {
+   "difference": -0.005748629339845784,
+   "over_high": -0.0005410629740169086,
+   "over_low": -0.012063395002297785,
+   "within_high": -0.0029188510354654818,
+   "within_low": -0.008563268665664465
+  },
+  "ridge_minus_best_log_loss_no_recall_only": {
+   "difference": -0.002469008074858059,
+   "over_high": 0.001005277620361429,
+   "over_low": -0.006425095375981327,
+   "within_high": 0.00016413106070213365,
+   "within_low": -0.00512269521506064
+  },
+  "ridge_minus_stored": {
+   "difference": -9.658080347124596e-05,
+   "over_high": 0.0013984909793213428,
+   "over_low": -0.0015238419769586149,
+   "within_high": 0.0012572250618800424,
+   "within_low": -0.001540257793447137
+  },
+  "ridge_minus_stored_log_loss": {
+   "difference": -0.0016134248074184895,
+   "over_high": 0.00013679560745230302,
+   "over_low": -0.0036414702393983626,
+   "within_high": 0.0007264433280837928,
+   "within_low": -0.0042112696675915325
+  },
+  "ridge_uncapped_cost_share": 0.6952181605158203,
+  "ridge_uncapped_minus_best": {
+   "difference": 0.001735317438944134,
+   "over_high": 0.006933406020380177,
+   "over_low": -0.00229544732709216,
+   "within_high": 0.0034781917367426893,
+   "within_low": 5.8698553830209035e-05
+  },
+  "ridge_uncapped_minus_best_log_loss": {
+   "difference": -0.009225736417232408,
+   "over_high": -0.002702861395928634,
+   "over_low": -0.017538508628852395,
+   "within_high": -0.006365401401803614,
+   "within_low": -0.01216584790140378
+  },
+  "stored_below_half": 7,
+  "stored_one_vector": 3
+ },
+ "own": {
+  "isarcasm_own_reference": 0.7420814479638009,
+  "isarcasm_stack": 0.2597402597402597,
+  "own_reference_own": 0.8101341748081621,
+  "reference_own": 0.7869602360690159,
+  "router_above": 10,
+  "router_below": 25,
+  "router_groups_high": 0.006784431517542942,
+  "router_groups_low": -0.00027025526941719293,
+  "router_minus_best": 0.0031655547834989234,
+  "router_minus_own": -0.020008383955647316,
+  "router_over_high": 0.022530556377528533,
+  "router_over_low": -0.00831153112517947,
+  "stack_above": 31,
+  "stack_above_own": 30,
+  "stack_below": 2,
+  "stack_below_own": 4,
+  "stack_groups_high": 0.013039554974284724,
+  "stack_groups_low": 0.007129377909859554,
+  "stack_minus_best": 0.01001456006165918,
+  "stack_minus_own": -0.013159378677487059,
+  "stack_over_high": 0.017569991376906506,
+  "stack_over_low": 0.001158867860007053,
+  "text_router_minus_own": -0.0148738118318798
+ },
+ "pool": {
+  "balanced_minus_uniform": {
+   "difference": -0.004455789025206149,
+   "over_high": -0.0005861096376207866,
+   "over_low": -0.008204648761435122,
+   "within_high": -0.0032159863261419855,
+   "within_low": -0.005758548119506413
+  },
+  "top_k_accuracy": 0.8717407665441962,
+  "top_k_calls": 2.990388927709304,
+  "top_k_cost_share_of_stacking": 0.8220862447871167,
+  "top_k_log_loss": 0.36344965053945005,
+  "top_k_minus_stacking": {
+   "difference": -0.0004792450315656528,
+   "over_high": 0.0013381975721628273,
+   "over_low": -0.0019315940773380845,
+   "within_high": 0.001100263854414602,
+   "within_low": -0.0019315975912229247
+  },
+  "top_k_minus_stacking_log_loss": 0.013494548068565553
+ },
+ "refit": {
+  "tfidf_accuracy": 0.854406143122928,
+  "tfidf_difference": 0.006096584602435548,
+  "tfidf_high": 0.00934818425064376,
+  "tfidf_log_loss": 0.39855944846379077,
+  "tfidf_low": 0.0028239947038355053,
+  "tfidf_usd": 0.076885877553952
+ },
+ "ridge": {
+  "largest_cost_share": 0.7222637940872214,
+  "less_accurate_within": [],
+  "lower_log_loss_over": [
+   "whole_capped",
+   "whole_uncapped"
+  ],
+  "lower_log_loss_within": [
+   "stored_capped",
+   "stored_uncapped",
+   "whole_capped",
+   "whole_uncapped"
+  ],
+  "more_accurate_over": [],
+  "more_accurate_within": [
+   "stored_uncapped",
+   "whole_uncapped"
+  ],
+  "variants": 4,
+  "whole_request_variants": 2
+ },
+ "suite": "main35",
+ "table": {
+  "representations": {
+   "ridge": {
+    "accuracy": 0.8621978163038767,
+    "log_loss": 0.3803190765834019,
+    "usd": 0.09583628466508293
+   },
+   "tfidf_refit": {
+    "accuracy": 0.854406143122928,
+    "log_loss": 0.39855944846379077,
+    "usd": 0.076885877553952
+   },
+   "whole": {
+    "accuracy": 0.8565119617298881,
+    "log_loss": 0.39390193931787393,
+    "usd": 0.08966637309990999
+   }
+  },
+  "rows": [
+   {
+    "accuracy": 0.8626110796073382,
+    "calls": 1.0,
+    "group": "Told the benchmark",
+    "log_loss": 0.3844542811158292,
+    "name": "Best model per benchmark",
+    "own": 0.7869602360690159,
+    "usd": 0.15006881841725425
+   },
+   {
+    "accuracy": 0.8382698929668652,
+    "calls": 1.0,
+    "group": "Told the benchmark",
+    "log_loss": 0.4265005846838516,
+    "name": "Best model per benchmark, by own metric",
+    "own": 0.8101341748081621,
+    "usd": 0.11027368208283489
+   },
+   {
+    "accuracy": 0.8621978163038767,
+    "calls": 1.0,
+    "group": "Told the benchmark",
+    "log_loss": 0.3803190765834019,
+    "name": "Ridge router, text embeddings",
+    "own": 0.7996055336950993,
+    "usd": 0.09583628466508293
+   },
+   {
+    "accuracy": 0.8643951169312433,
+    "calls": 1.0,
+    "group": "Told the benchmark",
+    "log_loss": 0.3785094465469709,
+    "name": "Ridge router, text embeddings, no cap",
+    "own": 0.8062918741509252,
+    "usd": 0.10838927416423234
+   },
+   {
+    "accuracy": 0.8565119617298881,
+    "calls": null,
+    "group": "Told the benchmark",
+    "log_loss": 0.39390193931787393,
+    "name": "kNN router, whole request",
+    "own": null,
+    "usd": 0.08966637309990999
+   },
+   {
+    "accuracy": 0.8717407665441962,
+    "calls": 2.990388927709304,
+    "group": "Told the benchmark",
+    "log_loss": 0.36344965053945005,
+    "name": "Top-$k$ pool, validated $k$",
+    "own": null,
+    "usd": 0.418916648413757
+   },
+   {
+    "accuracy": 0.8310643784052572,
+    "calls": 17.0,
+    "group": "Told the benchmark",
+    "log_loss": 0.5059047053980487,
+    "name": "Pool with equal weight per provider",
+    "own": null,
+    "usd": 1.7488943690896284
+   },
+   {
+    "accuracy": 0.8141767331311105,
+    "calls": 1.0,
+    "group": "Not told the benchmark",
+    "log_loss": 0.4967376738660887,
+    "name": "One model for all benchmarks",
+    "own": 0.7605136541583387,
+    "usd": 0.07258921602098531
+   },
+   {
+    "accuracy": 0.8546303347373282,
+    "calls": 1.0,
+    "group": "Not told the benchmark",
+    "log_loss": 0.411615995878317,
+    "name": "kNN router, text embeddings",
+    "own": 0.800886968875617,
+    "usd": 0.08066280927930415
+   },
+   {
+    "accuracy": 0.8395546625237648,
+    "calls": 1.0,
+    "group": "Not told the benchmark",
+    "log_loss": 0.44023012897611213,
+    "name": "kNN router, request features",
+    "own": 0.7748177811479776,
+    "usd": 0.12698741244036962
+   },
+   {
+    "accuracy": 0.8432842924858559,
+    "calls": 1.0,
+    "group": "Not told the benchmark",
+    "log_loss": 0.441615613095448,
+    "name": "Ridge router, text embeddings",
+    "own": 0.776142624582038,
+    "usd": 0.09840432795806213
+   }
+  ]
+ },
+ "unknown": {
+  "across_accuracy": 0.8546303347373282,
+  "across_capped_minus_text": {
+   "difference": -0.0022669579663895587,
+   "over_high": 0.004011500812974182,
+   "over_low": -0.00901739626279696,
+   "within_high": 0.0004729072353121562,
+   "within_low": -0.004707548346101251
+  },
+  "across_capped_minus_text_log_loss": 0.01877069658037809,
+  "across_minus_best": {
+   "difference": -0.007980744870009996,
+   "over_high": 0.0008604223675359715,
+   "over_low": -0.017633537948727514,
+   "within_high": -0.005088620281266573,
+   "within_low": -0.010908790158690252
+  },
+  "across_minus_global": {
+   "difference": 0.04045360160621768,
+   "over_high": 0.06231137031529954,
+   "over_low": 0.021554235188860807,
+   "within_high": 0.044147177387157316,
+   "within_low": 0.03674436847178116
+  },
+  "across_minus_text": {
+   "difference": -0.0022669579663895587,
+   "over_high": 0.004011500812974182,
+   "over_low": -0.00901739626279696,
+   "within_high": 0.0004729072353121562,
+   "within_low": -0.004707548346101251
+  },
+  "chance_share": 0.02854785139571167,
+  "global_accuracy": 0.8141767331311105,
+  "ridge_accuracy": 0.8621978163038767,
+  "ridge_cost_share": 0.6386155743468164,
+  "ridge_log_loss": 0.3803190765834019,
+  "ridge_minus_best": {
+   "difference": -0.0004132633034615482,
+   "over_high": 0.0023927557379815763,
+   "over_low": -0.003554123305868921,
+   "within_high": 0.0011422242850096648,
+   "within_low": -0.001980787579686465
+  },
+  "ridge_minus_best_log_loss": {
+   "difference": -0.004135204532427296,
+   "over_high": 0.0012075041200497673,
+   "over_low": -0.010406584513517208,
+   "within_high": -0.0013495057801456833,
+   "within_low": -0.006899740253067682
+  },
+  "ridge_minus_text": {
+   "difference": 0.00530052360015889,
+   "over_high": 0.007871442565908278,
+   "over_low": 0.002851447495307469,
+   "within_high": 0.00740361627516582,
+   "within_low": 0.0032030438296603175
+  },
+  "ridge_uncapped_cost_share": 0.7222637940872214,
+  "ridge_uncapped_minus_best": {
+   "difference": 0.0017840373239050593,
+   "over_high": 0.006424734599243048,
+   "over_low": -0.00167057281020787,
+   "within_high": 0.0034209680538108142,
+   "within_low": 0.00013958264260162886
+  },
+  "ridge_uncapped_minus_best_log_loss": {
+   "difference": -0.005944834568858324,
+   "over_high": 0.0008666124453439607,
+   "over_low": -0.014031823582218732,
+   "within_high": -0.003059492889674645,
+   "within_low": -0.00871469861586708
+  },
+  "same_benchmark_share": 0.8982017692975554
+ }
+}

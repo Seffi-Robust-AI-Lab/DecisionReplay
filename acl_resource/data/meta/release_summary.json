@@ -1,0 +1,222 @@
+{
+ "benchmark_clause_host_models": 1,
+ "benchmark_clause_host_records": 41,
+ "benchmark_clause_host_records_in_corpus": 0,
+ "benchmark_clause_hosts": [
+  "PrimeIntellect"
+ ],
+ "benchmarks_held": [
+  59
+ ],
+ "benchmarks_released": 35,
+ "benchmarks_total": 36,
+ "cells_released": 595,
+ "cells_total": 792,
+ "decided": "2026-11-21",
+ "decided_by": "the authors",
+ "excluded_request_benchmarks": 2,
+ "excluded_request_rules": 1,
+ "excluded_requests": 41,
+ "excluded_requests_by_benchmark": {
+  "2": 34,
+  "36": 7
+ },
+ "held_models": [
+  "heygen/heygen-decision-1",
+  "heygen/heygen-decision-1-turbo",
+  "jaredpalmer/kev-4b",
+  "morph/reflex",
+  "respan/span-02"
+ ],
+ "model_status": {
+  "cloudflare/clef": {
+   "release": "released",
+   "review": "unverified"
+  },
+  "cloudflare/clef-flash": {
+   "release": "released",
+   "review": "unverified"
+  },
+  "cloudflare/clef-omni": {
+   "release": "released",
+   "review": "cleared"
+  },
+  "heygen/heygen-decision-1": {
+   "release": "held",
+   "review": "conditional"
+  },
+  "heygen/heygen-decision-1-turbo": {
+   "release": "held",
+   "review": "conditional"
+  },
+  "jaredpalmer/kev-4b": {
+   "release": "held",
+   "review": "conditional"
+  },
+  "liquid/d1": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "liquid/d1-ultra": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "liquid/d1.1": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "liquid/d1.2": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "liquid/d1.2-ultra": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "microsoft/microsoft-decision-1.1": {
+   "release": "released",
+   "review": "cleared"
+  },
+  "morph/reflex": {
+   "release": "held",
+   "review": "conditional"
+  },
+  "nace-ai/drex-max": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "nace-ai/drex-max-finance": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "nace-ai/drex-v1.5": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "nace-ai/drex-v2.0": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "perplexity/pplx-decider-flash-v1.2": {
+   "release": "released",
+   "review": "unverified"
+  },
+  "perplexity/pplx-decider-v1.2": {
+   "release": "released",
+   "review": "unverified"
+  },
+  "respan/span-02": {
+   "release": "held",
+   "review": "unverified"
+  },
+  "typesafe/jev-1.13": {
+   "release": "released",
+   "review": "conditional"
+  },
+  "typesafe/jev-1.14": {
+   "release": "released",
+   "review": "conditional"
+  }
+ },
+ "models_held": 5,
+ "models_released": 17,
+ "models_total": 22,
+ "observations_in_corpus": 1816365,
+ "observations_released": 1817062,
+ "released_benchmarks": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  9,
+  11,
+  12,
+  20,
+  21,
+  22,
+  23,
+  25,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  50,
+  56,
+  57,
+  58,
+  61,
+  62,
+  64
+ ],
+ "released_models": [
+  "cloudflare/clef",
+  "cloudflare/clef-flash",
+  "cloudflare/clef-omni",
+  "liquid/d1",
+  "liquid/d1-ultra",
+  "liquid/d1.1",
+  "liquid/d1.2",
+  "liquid/d1.2-ultra",
+  "microsoft/microsoft-decision-1.1",
+  "nace-ai/drex-max",
+  "nace-ai/drex-max-finance",
+  "nace-ai/drex-v1.5",
+  "nace-ai/drex-v2.0",
+  "perplexity/pplx-decider-flash-v1.2",
+  "perplexity/pplx-decider-v1.2",
+  "typesafe/jev-1.13",
+  "typesafe/jev-1.14"
+ ],
+ "requests_decided": "2026-11-24",
+ "requests_released": 106845,
+ "review_cleared_models": 2,
+ "review_date": "2026-11-19",
+ "review_status_counts": {
+  "held": {
+   "conditional": 4,
+   "unverified": 1
+  },
+  "released": {
+   "cleared": 2,
+   "conditional": 11,
+   "unverified": 4
+  }
+ },
+ "secondary_host_cells": 2,
+ "secondary_host_cells_in_corpus": 2,
+ "secondary_host_count_in_corpus": 1,
+ "secondary_host_models": 1,
+ "secondary_host_models_in_corpus": 1,
+ "secondary_host_records": 75,
+ "secondary_host_records_in_corpus": 34,
+ "secondary_hosts": {
+  "cloudflare/clef-flash": {
+   "main": "DeepInfra",
+   "records": {
+    "Cloudflare": 34,
+    "DeepInfra": 106811,
+    "PrimeIntellect": 41
+   }
+  }
+ },
+ "secondary_hosts_in_corpus": {
+  "cloudflare/clef-flash": {
+   "Cloudflare": 34
+  }
+ },
+ "statement": "17 of the 22 models had no explicit clause flagged in our review that barred benchmarking or required permission to publish comparisons or compile a dataset.",
+ "vectors_released": 4573476,
+ "vectors_total": 5978016
+}

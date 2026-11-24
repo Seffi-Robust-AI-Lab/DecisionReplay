@@ -1,0 +1,185 @@
+{
+ "all_identical": true,
+ "files": [
+  {
+   "file": "ablations.json",
+   "identical": true,
+   "sha256": "0fb66663d906c3ef689d65fe07617133f7eb824af5a5882ab2f02fe6400143c3"
+  },
+  {
+   "file": "benchmark_metrics.json",
+   "identical": true,
+   "sha256": "21516b2ed096bd41def5323c65663f8540f6b684805b87afe3709698129eb201"
+  },
+  {
+   "file": "contrasts.json",
+   "identical": true,
+   "sha256": "5e1b8bcbdfaf8eadbde583ba17b36ef04d90b5abe2b52b7a4f0085056fe1dbc2"
+  },
+  {
+   "file": "diagnostics/diagnostics.json",
+   "identical": true,
+   "sha256": "f43ab01037b64e95971b57f188f758ae98fb1fbed6ad657b2cc70ae61f8fb9c9"
+  },
+  {
+   "file": "diagnostics/failures.csv",
+   "identical": true,
+   "sha256": "bec1b594718c176b0163d574e5ae1852258d62adf1b7b408fce0b0b9aab4e789"
+  },
+  {
+   "file": "diagnostics/headroom.csv",
+   "identical": true,
+   "sha256": "a8ca1fe617ce1d433de6f6b42e59fda440ef1bbb6e9939c283ef07b9732f6ab2"
+  },
+  {
+   "file": "diagnostics/homogenization.json",
+   "identical": true,
+   "sha256": "6bf85c1dbdccfa2e222b715b86d40c976155214fc7a3fd408a04b1690b58ce43"
+  },
+  {
+   "file": "diagnostics/homogenization_pairs.csv",
+   "identical": true,
+   "sha256": "a1e04245b123174c956955dc49e21cb88d67b9ae7442773d6c40753fc8e89fe4"
+  },
+  {
+   "file": "diagnostics/models.csv",
+   "identical": true,
+   "sha256": "47134412b9beb63916fefb15c61fe035744e49418111b13b5cd4570c0ad12ac8"
+  },
+  {
+   "file": "diagnostics/pairs.csv",
+   "identical": true,
+   "sha256": "f5b5fad3d966be4588f267a3d1f4acd754d0243ec4dce76524863f6d61de4eee"
+  },
+  {
+   "file": "diagnostics/reliability.csv",
+   "identical": true,
+   "sha256": "0c4fe23c2293d456332f9050807b2d645ea463646971b4dde1bb6c614bee959d"
+  },
+  {
+   "file": "facts.json",
+   "identical": true,
+   "sha256": "7c6dfda730d41ea58795775fbc83ecc2c2d8464dbf9dddd18c8d49842b797b8e"
+  },
+  {
+   "file": "fold_redraws.json",
+   "identical": true,
+   "sha256": "c1b133a2d530f92c150cd46b70542af688460ee4fc2151bbd8f56529f1493b15"
+  },
+  {
+   "file": "frontier.json",
+   "identical": true,
+   "sha256": "103b17e2690c23acb530dde7ccc85ba730c9f5b2e25a0c44d59a977802d7834a"
+  },
+  {
+   "file": "hardness.json",
+   "identical": true,
+   "sha256": "6495e678fca2db08b8e770b7d2a366f886765d1f43259751857fb64c602ef0d6"
+  },
+  {
+   "file": "leakage.json",
+   "identical": true,
+   "sha256": "d4bd180036cd419338f77976d25a904d93e18f57c07092ba5152df5d0765f145"
+  },
+  {
+   "file": "local/fields-best_single.npz",
+   "identical": true,
+   "sha256": "976a8f90d8d699f2aa0885b6ffd31e7d8ba4843c3a1a6afeb72c23d7c9869d12"
+  },
+  {
+   "file": "local/fields-certified_exit.npz",
+   "identical": true,
+   "sha256": "b1b4c8cdd3cc22e2c56bc0fd3576d7bc60cb52c211724fc98eb42ab93b8ae12c"
+  },
+  {
+   "file": "local/fields-confidence_cascade.npz",
+   "identical": true,
+   "sha256": "27290576890d40004d9d0c6f56e924ea3b1db800505c2c5988c5618b2acf6767"
+  },
+  {
+   "file": "local/fields-greedy.npz",
+   "identical": true,
+   "sha256": "1d9908f50f82654b8ee76b69e45fb35d874be81d8f403bd78664a2495aa6add8"
+  },
+  {
+   "file": "local/fields-knn_router.npz",
+   "identical": true,
+   "sha256": "1cd61ef749b43b0bd42b8b9932f753faa0ec778ca803ef07eb9a804df60ab35d"
+  },
+  {
+   "file": "local/fields-knn_router_text.npz",
+   "identical": true,
+   "sha256": "f8ec56dc558635a7d263ace9642f78181e734b461ef993201d5d64131305ded8"
+  },
+  {
+   "file": "local/fields-majority_vote.npz",
+   "identical": true,
+   "sha256": "b1d04588dfc03dae4cdda608722283c5481ecabaa975a001a59018abaab96e69"
+  },
+  {
+   "file": "local/fields-oracle.npz",
+   "identical": true,
+   "sha256": "608b62d2b6538e55a65d942641e01cb4f414f37f2eb094d2ce63d09c1abc6097"
+  },
+  {
+   "file": "local/fields-random_single.npz",
+   "identical": true,
+   "sha256": "dd1abc7c417c28935d5de6899567e6b3ed63e5af4f36d140b78bf9c3ca555e3b"
+  },
+  {
+   "file": "local/fields-skill_pool.npz",
+   "identical": true,
+   "sha256": "d67ab41ae6ce71d97b734e94b514b6c03a67fa6c4a9ba40f529391407893108b"
+  },
+  {
+   "file": "local/fields-stack.npz",
+   "identical": true,
+   "sha256": "6bb07f0c555ae9e56477010229d125770cc99dfa3d911ae941a3f96e6aad5305"
+  },
+  {
+   "file": "local/fields-stack_final_temperature.npz",
+   "identical": true,
+   "sha256": "83ac633bd587741b89821a713d9505bb7a722d784a9413c71727653cd93bc607"
+  },
+  {
+   "file": "local/fields-uniform_mean.npz",
+   "identical": true,
+   "sha256": "52ee28ce918e380090438ed1744b948c45f8650d0176871e7578c0606386c9ce"
+  },
+  {
+   "file": "local/fields-uniform_temperature.npz",
+   "identical": true,
+   "sha256": "56e8b4adbc6adffa265d143c08bd10abc315c06b46d833067621905f00ef906a"
+  },
+  {
+   "file": "operating_points.json",
+   "identical": true,
+   "sha256": "76dd2a70ac4bafd8a49ee4828bb169d767032769a372076c8f1e225995f76258"
+  },
+  {
+   "file": "router_study.json",
+   "identical": true,
+   "sha256": "0f66d49e9d65b3cb4a8893d29a6a25586a36a9636c9ee5f91a0d124fb7728674"
+  },
+  {
+   "file": "rows.json",
+   "identical": true,
+   "sha256": "bce522ce11f55a99aebb7483629141282fa780d3db68ae1470d748f83972b3a1"
+  },
+  {
+   "file": "run.json",
+   "identical": true,
+   "sha256": "aec18ad51df7eaee05664334eec563e5bac1d0b9d418c335fce750db099194cd"
+  },
+  {
+   "file": "tracks.json",
+   "identical": true,
+   "sha256": "41a0ad1ecd6ec7f3bb387f677e9944eaee41734248f366a14127ddf74a99d39b"
+  }
+ ],
+ "files_compared": 35,
+ "files_identical": 35,
+ "files_only_in_later_runs": [],
+ "reruns": 2,
+ "runs": 3
+}
