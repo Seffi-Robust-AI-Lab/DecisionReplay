@@ -1,0 +1,16 @@
+{
+ "note": "Read-only inputs of the reproduce scripts, as paths relative to the root of the repository. None of them is distributed. The scripts read them at these paths, so the collection's data/decision_index and results/decision_index are expected inside the folders data and results of the repository. Nothing is copied or linked.",
+ "source_export": "results/decision_index/paper/dataset/candidate",
+ "benchmark_rows": "data/decision_index/common-paid-65/inputs",
+ "benchmark_kit": "data/decision_index/upstream/kit",
+ "rights_review": "results/decision_index/paper/rights",
+ "clearance": "data/meta/release_clearance.csv (derived by analysis/release.py from the rights review and data/meta/release_decision.json)",
+ "collection_reports": "results/decision_index/expanded-paid-166",
+ "stored_results_round2": "ensemble_round2/results",
+ "stored_results_earlier_study": "results/decision_index/paper",
+ "model_cards": "ensemble_round2/model_cards/cards.csv",
+ "related_work": "ensemble_round2/related_work",
+ "meta": "data/meta",
+ "processed_local": "data/processed/local",
+ "request_features": "acl_resource/data/features (minilm: embed_requests; tfidf and smollm2: featurize_requests; built locally from the benchmark rows)"
+}

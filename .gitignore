@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 ruvector.db
 agentdb.rvf*
+# built or kept locally, never distributed: request representations, benchmark rows, private copies of the corpus
+acl_resource/data/features/
+data/decision_index/
+results/decision_index/
+data/processed/local/
