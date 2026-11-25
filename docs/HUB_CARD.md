@@ -72,10 +72,5 @@ that layout and compared every file with it.
 - A reported choice and the first maximum of the vector can differ on a tie.
 - Binding the rows checks request and group identifiers, field counts and request order. A revision of a
   benchmark that changes only the accepted answers passes these checks and gives different labels.
-
-## Not yet set
-
-- The licence and the terms of reuse: none has been chosen yet. `release_notices.csv` holds, for each model, what
-  a review of the provider's terms found and the conditions it names.
-- How to obtain the matching benchmark rows.
-- How to report an error, and how revisions are numbered.
+- `release_notices.csv` holds, for each model, what a review of the provider's terms found and the conditions it
+  names.
