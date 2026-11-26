@@ -13,6 +13,8 @@ latency. A policy is replayed on these records, so no model is called again.
 
 **DecisionReplay: A Corpus and Offline Simulator for Combining, Routing and Cascading Decision Models**
 
+arXiv: https://arxiv.org/abs/2611.34627
+
 > Comparing ensembles, routers and cascades requires the output of every model on every item, and its cost.
 > Stored collections built for routing keep no per-option probabilities. We introduce DecisionReplay, a
 > dataset on which ensemble methods, routers and cascades are simulated quickly, without new model calls. It
