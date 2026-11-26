@@ -11,22 +11,21 @@ latency. A policy is replayed on these records, so no model is called again.
 
 ## Paper
 
-**DecisionReplay: A Corpus and Offline Simulator for Combining, Routing and Cascading Decision Models**
+**DecisionReplay: A Corpus and Offline Simulator for Ensembling Decision Models**
 
 arXiv: https://arxiv.org/abs/2611.34627
 
 > Comparing ensembles, routers and cascades requires the output of every model on every item, and its cost.
-> Stored collections built for routing keep no per-option probabilities. We introduce DecisionReplay, a
-> dataset on which ensemble methods, routers and cascades are simulated quickly, without new model calls. It
-> holds the probability vectors of 17 commercial decision models, endpoints that return a probability for
-> every answer option, on 35 fixed-choice NLP benchmarks, with the token counts, billed cost and measured
-> latency of every call, all released. A deterministic simulator replays any policy that selects, combines or
-> cascades them, and the main experiments rerun in 812 seconds on a laptop. One well-chosen model per
-> benchmark is hard to beat: pooling all models loses 2.7 accuracy points to it, and stacking gains 1.0 points
-> at 3.4 times its cost. The models are wrong together: two that are both wrong choose the same wrong option
-> in 72% of cases. The best router matches that model at 64% of its cost, and certified early exit cuts the
-> cost of a stacked ensemble by 43% without changing an answer, though not its latency. DecisionReplay makes
-> it cheap and fast to test whether a new method changes these results.
+> Stored collections built for routing keep no per-option probabilities. We provide a dataset on which
+> ensemble methods, routers and cascades are simulated quickly, without new model calls. DecisionReplay holds
+> the probability vectors of 17 commercial decision models, endpoints that return a probability for every
+> answer option, on 35 benchmarks, with the token counts, billed cost and measured latency of every call, all
+> released. A deterministic simulator replays any policy that selects, combines or cascades them. One
+> well-chosen model per benchmark is hard to beat: pooling all models loses 2.7 accuracy points to it, and
+> stacking gains 1.0 points at 3.4 times its cost. The models are wrong together: two that are both wrong
+> choose the same wrong option in 72% of cases. The best router matches that model at 64% of its cost, and
+> certified early exit cuts the cost of a stacked ensemble by 43% without changing an answer. DecisionReplay
+> makes it cheap and fast to test whether a new method changes these results.
 
 The results of the paper, its numbers, tables and figures, are computed from the corpus, from its audit
 (`docs/AUDIT_RELEASE.json`) and from the files in `results/`. `reproduce_release.sh` and `reproduce_followup.sh`
